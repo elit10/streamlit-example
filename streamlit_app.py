@@ -37,4 +37,6 @@ pages = {
 
 st.sidebar.title("Navigation")
 selection = st.sidebar.radio("Go to", list(pages.keys()))
-pagesselection
+curPage = pages[selection]
+
+curPage.app()
