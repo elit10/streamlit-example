@@ -13,6 +13,6 @@ st.title('Multiplication App')
 num1 = st.number_input("Enter the first parameter",value = 0,format = "%d")
 num2 = st.number_input("Enter the second parameter",value = 0,format = "%d")
 
-result = rd.randint(0,10)
+result = rd.randint(0,100)
 
-st.write("The result: " + str(result))
+st.write("The result of ML model is : " + str(result))
