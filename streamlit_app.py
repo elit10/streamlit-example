@@ -10,8 +10,8 @@ def multiply_numbers(num1, num2):
 
 st.title('Multiplication App')
 
-num1 = st.number_input("Enter the first parameter",format = "%d")
-num2 = st.number_input("Enter the second parameter",format = "%d")
+num1 = st.number_input("Enter the first parameter",value = 0,format = "%d")
+num2 = st.number_input("Enter the second parameter",value = 0,format = "%d")
 
 result = rd.randint(0,10)
 
