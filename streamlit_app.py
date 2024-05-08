@@ -17,5 +17,4 @@ num2 = st.number_input("Enter the second parameter",value = 0,format = "%d")
 result = rd.randint(0,100)
 
 st.write("The result of ML model is : " + str(result))
-st.write(file.num1)
-st.write(file.num2)
+st.write(file.multiply(num1,num2))
