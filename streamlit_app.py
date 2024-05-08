@@ -13,6 +13,6 @@ st.title('Multiplication App')
 num1 = st.number_input("Enter the first parameter")
 num2 = st.number_input("Enter the second parameter")
 
-result = rd.randint(10)
+result = rd.randint(0,10)
 
 st.write("The result: " + result)
