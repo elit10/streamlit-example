@@ -18,9 +18,6 @@ result = rd.randint(0,100)
 
 st.write("The result of ML model is : " + str(result))
 
-
-import streamlit as st
-
 if st.button('HESAPLA'):
     st.write(file.multiply(num1,num2))
 
@@ -40,4 +37,4 @@ pages = {
 
 st.sidebar.title("Navigation")
 selection = st.sidebar.radio("Go to", list(pages.keys()))
-pagesselection
+pages(selection)
