@@ -1,4 +1,5 @@
 import streamlit as st
+import random as rd
 
 st.title("Deneme")
 "Deneme deneme böyle mi yazılıyor"
@@ -12,6 +13,6 @@ st.title('Multiplication App')
 num1 = st.number_input("Enter the first parameter")
 num2 = st.number_input("Enter the second parameter")
 
-result = random.randInt(10)
+result = rd.randInt(10)
 
 st.write("The result: " + result)
