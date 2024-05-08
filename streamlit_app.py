@@ -1,5 +1,6 @@
 import streamlit as st
 import samplePyFile as file
+import random as rd
 
 st.title("Deneme")
 "Deneme deneme böyle mi yazılıyor"
