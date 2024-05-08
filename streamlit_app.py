@@ -17,8 +17,11 @@ num2 = st.number_input("Enter the second parameter",value = 0,format = "%d")
 result = rd.randint(0,100)
 
 st.write("The result of ML model is : " + str(result))
-st.write(file.multiply(num1,num2))
 
 
+import streamlit as st
+
+if st.button('Say hello'):
+    st.write(file.multiply(num1,num2))
 
 
