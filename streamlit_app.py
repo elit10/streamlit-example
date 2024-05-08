@@ -1,5 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 import samplePyFile as file
 
 st.title("Deneme")
@@ -19,10 +18,6 @@ result = rd.randint(0,100)
 st.write("The result of ML model is : " + str(result))
 st.write(file.multiply(num1,num2))
 
-plt.plot(num1,num2)
 
-
-
-plt.show()
 
 
