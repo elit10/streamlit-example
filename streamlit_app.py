@@ -2,6 +2,7 @@ import streamlit as st
 
 st.title("Deneme")
 "Deneme deneme böyle mi yazılıyor"
+st.title("ikinci başlık ")
 
 def multiply_numbers(num1, num2):
     return num1 * num2
