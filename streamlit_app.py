@@ -9,9 +9,9 @@ def multiply_numbers(num1, num2):
 
 st.title('Multiplication App')
 
-num1 = st.number_input('Enter the first number', value=1, format='%d')
-num2 = st.number_input('Enter the second number', value=1, format='%d')
+num1 = st.number_input("Enter the first parameter")
+num2 = st.number_input("Enter the second parameter")
 
-result = multiply_numbers(num1, num2)
+result = random.randInt(10)
 
-st.write(f'The result of {num1} * {num2} is **{result}**')
+st.write("The result: " + result)
