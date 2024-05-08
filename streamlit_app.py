@@ -15,4 +15,4 @@ num2 = st.number_input("Enter the second parameter")
 
 result = rd.randint(0,10)
 
-st.write("The result: " + result)
+st.write("The result: " + str(result))
