@@ -40,3 +40,4 @@ pages = {
 
 st.sidebar.title("Navigation")
 selection = st.sidebar.radio("Go to", list(pages.keys()))
+pagesselection
