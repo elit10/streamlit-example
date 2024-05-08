@@ -31,10 +31,9 @@ df = pd.DataFrame({
 })
 
 st.altair_chart(alt.Chart(df, height=700, width=700)
-    .mark_point(filled=True)
+    .mark_point(filled=True, color='red')
     .encode(
         x=alt.X("x", axis=None),
         y=alt.Y("y", axis=None),
-        color="red",
         size=alt.Size("rand", legend=None, scale=alt.Scale(range=[1, 150])),
     ))
