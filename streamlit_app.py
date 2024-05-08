@@ -21,7 +21,7 @@ st.write("The result of ML model is : " + str(result))
 
 import streamlit as st
 
-if st.button('Say hello'):
+if st.button('HESAPLA'):
     st.write(file.multiply(num1,num2))
 
 
